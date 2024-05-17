@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Partner Registration - Blinkit</title>
+</head>
+<body>
+    <h1>Delivery Partner Registration</h1>
+    <p>Fill out the form below to register as a delivery partner:</p>
+    <form action="submit_delivery_partner.php" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br>
+        <label for="shift">Shift of Time:</label><br>
+        <input type="text" id="shift" name="shift"><br>
+        <label for="licence">Do you have a driving licence?</label><br>
+        <select id="licence" name="licence">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
